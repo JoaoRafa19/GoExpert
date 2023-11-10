@@ -1,14 +1,32 @@
 package main
 
-const a = "Hello world"
+import (
+	"fmt"
+	"math/rand"
+)
 
-var b bool
+type ID int
+
+var ()
 
 func main() {
 
-	println(b)
-	println(a)
-	b = true
-	println(b)
+	var mat [6][6]int
+
+	for i,j := range mat {
+		
+		for k, _ := range j {
+
+			mat[i][k] = rand.Intn(10)
+		}
+		fmt.Println()
+		
+	
+	}
+	
+
+	
+
+
 
 }
