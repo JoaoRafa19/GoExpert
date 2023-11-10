@@ -20,13 +20,7 @@ func main() {
 			mat[i][k] = rand.Intn(10)
 		}
 		fmt.Println()
-		
-	
 	}
-	
-
-	
-
 
 
 }
